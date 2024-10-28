@@ -13,6 +13,7 @@ chrono = { version = "0.4.38", features = ["serde"] }
 datafusion = { version = "42.1.0", features = ["serde"] }
 parquet = "53.1.0"
 polars = { version = "0.43.1", features = ["lazy", "parquet", "sql", "timezones"] }
+reedline-repl-rs = "1.2.1"
 serde = { version = "1.0.213", features = ["derive"] }
 serde_json = "1.0.132"
 tokio = { version = "1.41.0", features = ["rt", "rt-multi-thread", "macros"] }
